@@ -4,10 +4,14 @@ public class PlayerMove : MonoBehaviour
 {
     public float moveSpeed = 5;
     public float leftRigthSpeed = 4;
+    static public bool canMoove = false;
 
     void Update()
     {
         transform.Translate(moveSpeed * Time.deltaTime * Vector3.forward, Space.World);
+
+        if (!canMoove)
+            return;
 
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
         {
