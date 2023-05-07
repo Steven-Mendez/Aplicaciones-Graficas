@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class LevelDistance : MonoBehaviour
 {
     public GameObject disDisplay;
+    public GameObject disEndDisplay;
     public int disRun;
     public bool addingDis = false;
     public float disDelay = 0.35F;
@@ -22,6 +23,7 @@ public class LevelDistance : MonoBehaviour
     {
         disRun++;
         disDisplay.GetComponent<Text>().text = disRun.ToString();
+        disEndDisplay.GetComponent<Text>().text = disRun.ToString();
         yield return new WaitForSeconds(disDelay);
         addingDis = false;
     }
