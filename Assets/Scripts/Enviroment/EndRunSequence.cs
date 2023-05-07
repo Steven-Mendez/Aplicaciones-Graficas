@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EndRunSequence : MonoBehaviour
 {
@@ -15,11 +16,13 @@ public class EndRunSequence : MonoBehaviour
 
     IEnumerator EndSequence()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2.5f);
         liveCoins.SetActive(false);
         liveDis.SetActive(false);
         endScreen.SetActive(true);
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(1.5f);
         fadeOut.SetActive(true);
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene(0);
     }
 }
