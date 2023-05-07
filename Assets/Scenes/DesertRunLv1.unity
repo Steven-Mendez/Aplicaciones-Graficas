@@ -140,6 +140,7 @@ GameObject:
   - component: {fileID: 14565364}
   - component: {fileID: 14565363}
   - component: {fileID: 14565362}
+  - component: {fileID: 14565365}
   m_Layer: 0
   m_Name: Tree01 (2)
   m_TagString: Untagged
@@ -171,7 +172,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 14565360}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -226,6 +227,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 14565360}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &14565365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14565360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639aa61463e828c42a3f955987c52ac4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thePlayer: {fileID: 1317597452}
+  charModel: {fileID: 524873324}
+  crashThud: {fileID: 1747946764}
+  mainCam: {fileID: 963194225}
+  levelControl: {fileID: 1317891444}
 --- !u!4 &20352833 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400012, guid: 24a759921bedc2541881a0535a7bfcc8, type: 3}
@@ -369,6 +387,7 @@ GameObject:
   - component: {fileID: 38309016}
   - component: {fileID: 38309015}
   - component: {fileID: 38309014}
+  - component: {fileID: 38309017}
   m_Layer: 0
   m_Name: Tree01 (1)
   m_TagString: Untagged
@@ -400,7 +419,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 38309012}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -455,6 +474,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 38309012}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &38309017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38309012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639aa61463e828c42a3f955987c52ac4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thePlayer: {fileID: 1317597452}
+  charModel: {fileID: 524873324}
+  crashThud: {fileID: 1747946764}
+  mainCam: {fileID: 963194225}
+  levelControl: {fileID: 1317891444}
 --- !u!4 &49358526 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 1840141b5d3f43e49a5c7980d5c40da4, type: 3}
@@ -1252,6 +1288,7 @@ GameObject:
   - component: {fileID: 226311657}
   - component: {fileID: 226311656}
   - component: {fileID: 226311655}
+  - component: {fileID: 226311658}
   m_Layer: 0
   m_Name: Rock01 (1)
   m_TagString: Untagged
@@ -1283,7 +1320,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 226311653}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1338,6 +1375,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 226311653}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &226311658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226311653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639aa61463e828c42a3f955987c52ac4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thePlayer: {fileID: 1317597452}
+  charModel: {fileID: 524873324}
+  crashThud: {fileID: 1747946764}
+  mainCam: {fileID: 963194225}
+  levelControl: {fileID: 1317891444}
 --- !u!1001 &228990521
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2174,6 +2228,7 @@ GameObject:
   - component: {fileID: 336577234}
   - component: {fileID: 336577233}
   - component: {fileID: 336577232}
+  - component: {fileID: 336577235}
   m_Layer: 0
   m_Name: Tree01
   m_TagString: Untagged
@@ -2205,7 +2260,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 336577230}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -2260,6 +2315,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 336577230}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &336577235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 336577230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639aa61463e828c42a3f955987c52ac4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thePlayer: {fileID: 1317597452}
+  charModel: {fileID: 524873324}
+  crashThud: {fileID: 1747946764}
+  mainCam: {fileID: 963194225}
+  levelControl: {fileID: 1317891444}
 --- !u!1 &344966921
 GameObject:
   m_ObjectHideFlags: 0
@@ -3542,6 +3614,7 @@ GameObject:
   - component: {fileID: 453718615}
   - component: {fileID: 453718614}
   - component: {fileID: 453718613}
+  - component: {fileID: 453718617}
   m_Layer: 0
   m_Name: BigRock01
   m_TagString: Untagged
@@ -3557,7 +3630,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 453718612}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -3628,6 +3701,23 @@ Transform:
   m_Father: {fileID: 1887127445}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &453718617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 453718612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639aa61463e828c42a3f955987c52ac4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thePlayer: {fileID: 1317597452}
+  charModel: {fileID: 524873324}
+  crashThud: {fileID: 1747946764}
+  mainCam: {fileID: 963194225}
+  levelControl: {fileID: 1317891444}
 --- !u!1001 &459937113
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3877,7 +3967,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f12a3ed37c1553f46a2806744d6b056e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.23000145
+      value: -0.532
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f12a3ed37c1553f46a2806744d6b056e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4009,6 +4099,7 @@ GameObject:
   - component: {fileID: 504194252}
   - component: {fileID: 504194251}
   - component: {fileID: 504194250}
+  - component: {fileID: 504194253}
   m_Layer: 0
   m_Name: Rock01 (3)
   m_TagString: Untagged
@@ -4040,7 +4131,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 504194248}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -4095,6 +4186,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 504194248}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &504194253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504194248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639aa61463e828c42a3f955987c52ac4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thePlayer: {fileID: 1317597452}
+  charModel: {fileID: 524873324}
+  crashThud: {fileID: 1747946764}
+  mainCam: {fileID: 963194225}
+  levelControl: {fileID: 1317891444}
 --- !u!1 &504539348
 GameObject:
   m_ObjectHideFlags: 0
@@ -4233,6 +4341,7 @@ GameObject:
   - component: {fileID: 505196247}
   - component: {fileID: 505196246}
   - component: {fileID: 505196245}
+  - component: {fileID: 505196249}
   m_Layer: 0
   m_Name: Log01
   m_TagString: Untagged
@@ -4248,7 +4357,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 505196244}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -4319,6 +4428,23 @@ Transform:
   m_Father: {fileID: 1887127445}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &505196249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 505196244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639aa61463e828c42a3f955987c52ac4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thePlayer: {fileID: 1317597452}
+  charModel: {fileID: 524873324}
+  crashThud: {fileID: 1747946764}
+  mainCam: {fileID: 963194225}
+  levelControl: {fileID: 1317891444}
 --- !u!1 &507601237
 GameObject:
   m_ObjectHideFlags: 0
@@ -4331,6 +4457,7 @@ GameObject:
   - component: {fileID: 507601241}
   - component: {fileID: 507601240}
   - component: {fileID: 507601239}
+  - component: {fileID: 507601242}
   m_Layer: 0
   m_Name: BigRock01 (1)
   m_TagString: Untagged
@@ -4346,7 +4473,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 507601237}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.41, y: 1.5, z: -5.87}
+  m_LocalPosition: {x: -1.64, y: 1.5, z: -5.32}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4362,7 +4489,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 507601237}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -4417,6 +4544,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 507601237}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &507601242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507601237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639aa61463e828c42a3f955987c52ac4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thePlayer: {fileID: 1317597452}
+  charModel: {fileID: 524873324}
+  crashThud: {fileID: 1747946764}
+  mainCam: {fileID: 963194225}
+  levelControl: {fileID: 1317891444}
 --- !u!1001 &513337701
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4490,6 +4634,7 @@ GameObject:
   - component: {fileID: 520194164}
   - component: {fileID: 520194163}
   - component: {fileID: 520194162}
+  - component: {fileID: 520194165}
   m_Layer: 0
   m_Name: BigRock01
   m_TagString: Untagged
@@ -4521,7 +4666,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 520194160}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -4576,6 +4721,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 520194160}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &520194165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520194160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639aa61463e828c42a3f955987c52ac4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thePlayer: {fileID: 1317597452}
+  charModel: {fileID: 524873324}
+  crashThud: {fileID: 1747946764}
+  mainCam: {fileID: 963194225}
+  levelControl: {fileID: 1317891444}
 --- !u!1 &521799359
 GameObject:
   m_ObjectHideFlags: 0
@@ -6109,7 +6271,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: c281fe789ee75df4c960a4cc8f1ced68, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
-  m_Pitch: 0.75
+  m_Pitch: 1.05
   Loop: 1
   Mute: 0
   Spatialize: 0
@@ -6353,7 +6515,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 699519095}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.08, z: -89.51002}
+  m_LocalPosition: {x: 0, y: 0, z: -89.51002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6737,6 +6899,7 @@ GameObject:
   - component: {fileID: 722866984}
   - component: {fileID: 722866983}
   - component: {fileID: 722866982}
+  - component: {fileID: 722866985}
   m_Layer: 0
   m_Name: Tree01 (2)
   m_TagString: Untagged
@@ -6768,7 +6931,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 722866980}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -6823,6 +6986,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 722866980}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &722866985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722866980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639aa61463e828c42a3f955987c52ac4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thePlayer: {fileID: 1317597452}
+  charModel: {fileID: 524873324}
+  crashThud: {fileID: 1747946764}
+  mainCam: {fileID: 963194225}
+  levelControl: {fileID: 1317891444}
 --- !u!4 &726553353 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400012, guid: 24a759921bedc2541881a0535a7bfcc8, type: 3}
@@ -6971,6 +7151,7 @@ GameObject:
   - component: {fileID: 768036657}
   - component: {fileID: 768036656}
   - component: {fileID: 768036655}
+  - component: {fileID: 768036659}
   m_Layer: 0
   m_Name: Tree01
   m_TagString: Untagged
@@ -6986,7 +7167,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 768036654}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -7057,6 +7238,23 @@ Transform:
   m_Father: {fileID: 1887127445}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &768036659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768036654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639aa61463e828c42a3f955987c52ac4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thePlayer: {fileID: 1317597452}
+  charModel: {fileID: 524873324}
+  crashThud: {fileID: 1747946764}
+  mainCam: {fileID: 963194225}
+  levelControl: {fileID: 1317891444}
 --- !u!1001 &774843632
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7421,6 +7619,7 @@ GameObject:
   - component: {fileID: 828610751}
   - component: {fileID: 828610750}
   - component: {fileID: 828610753}
+  - component: {fileID: 828610754}
   m_Layer: 0
   m_Name: Tree01
   m_TagString: Untagged
@@ -7508,6 +7707,23 @@ MeshFilter:
   m_GameObject: {fileID: 828610748}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!114 &828610753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828610748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639aa61463e828c42a3f955987c52ac4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thePlayer: {fileID: 1317597452}
+  charModel: {fileID: 524873324}
+  crashThud: {fileID: 1747946764}
+  mainCam: {fileID: 963194225}
+  levelControl: {fileID: 1317891444}
+--- !u!114 &828610754
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8167,6 +8383,7 @@ GameObject:
   - component: {fileID: 930622288}
   - component: {fileID: 930622287}
   - component: {fileID: 930622286}
+  - component: {fileID: 930622289}
   m_Layer: 0
   m_Name: Tree01
   m_TagString: Untagged
@@ -8198,7 +8415,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 930622284}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -8253,6 +8470,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 930622284}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &930622289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930622284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639aa61463e828c42a3f955987c52ac4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thePlayer: {fileID: 1317597452}
+  charModel: {fileID: 524873324}
+  crashThud: {fileID: 1747946764}
+  mainCam: {fileID: 963194225}
+  levelControl: {fileID: 1317891444}
 --- !u!1 &936661287
 GameObject:
   m_ObjectHideFlags: 0
@@ -8265,6 +8499,7 @@ GameObject:
   - component: {fileID: 936661291}
   - component: {fileID: 936661290}
   - component: {fileID: 936661289}
+  - component: {fileID: 936661292}
   m_Layer: 0
   m_Name: BigRock01 (1)
   m_TagString: Untagged
@@ -8296,7 +8531,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 936661287}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -8351,6 +8586,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 936661287}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &936661292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 936661287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639aa61463e828c42a3f955987c52ac4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thePlayer: {fileID: 1317597452}
+  charModel: {fileID: 524873324}
+  crashThud: {fileID: 1747946764}
+  mainCam: {fileID: 963194225}
+  levelControl: {fileID: 1317891444}
 --- !u!1 &941960426
 GameObject:
   m_ObjectHideFlags: 0
@@ -8489,6 +8741,7 @@ GameObject:
   - component: {fileID: 952711499}
   - component: {fileID: 952711498}
   - component: {fileID: 952711497}
+  - component: {fileID: 952711501}
   m_Layer: 0
   m_Name: Rock01
   m_TagString: Untagged
@@ -8504,7 +8757,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 952711496}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -8574,6 +8827,23 @@ Transform:
   m_Father: {fileID: 1887127445}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &952711501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 952711496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639aa61463e828c42a3f955987c52ac4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thePlayer: {fileID: 1317597452}
+  charModel: {fileID: 524873324}
+  crashThud: {fileID: 1747946764}
+  mainCam: {fileID: 963194225}
+  levelControl: {fileID: 1317891444}
 --- !u!4 &956916033 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: c83f502368bab8140af79867b14e99c9, type: 3}
@@ -10656,6 +10926,7 @@ GameObject:
   - component: {fileID: 1244114083}
   - component: {fileID: 1244114082}
   - component: {fileID: 1244114081}
+  - component: {fileID: 1244114084}
   m_Layer: 0
   m_Name: Rock01
   m_TagString: Untagged
@@ -10687,7 +10958,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1244114079}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -10742,6 +11013,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1244114079}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1244114084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244114079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639aa61463e828c42a3f955987c52ac4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thePlayer: {fileID: 1317597452}
+  charModel: {fileID: 524873324}
+  crashThud: {fileID: 1747946764}
+  mainCam: {fileID: 963194225}
+  levelControl: {fileID: 1317891444}
 --- !u!1001 &1250513337
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11188,7 +11476,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1317597452}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.1, z: -35.29}
+  m_LocalPosition: {x: 0, y: 1.073, z: -35.29}
   m_LocalScale: {x: 0.75, y: 1.5, z: 0.75}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11209,8 +11497,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0594cc4326b1d3149afb891620b4f259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
-  leftRigthSpeed: 4
+  isJumping: 0
+  comingDown: 0
+  playerObject: {fileID: 524873324}
 --- !u!143 &1317597458
 CharacterController:
   m_ObjectHideFlags: 0
@@ -11517,6 +11806,7 @@ GameObject:
   - component: {fileID: 1351571463}
   - component: {fileID: 1351571462}
   - component: {fileID: 1351571465}
+  - component: {fileID: 1351571466}
   m_Layer: 0
   m_Name: Rock01
   m_TagString: Untagged
@@ -11604,6 +11894,23 @@ MeshFilter:
   m_GameObject: {fileID: 1351571460}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!114 &1351571465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351571460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639aa61463e828c42a3f955987c52ac4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thePlayer: {fileID: 1317597452}
+  charModel: {fileID: 524873324}
+  crashThud: {fileID: 1747946764}
+  mainCam: {fileID: 963194225}
+  levelControl: {fileID: 1317891444}
+--- !u!114 &1351571466
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13036,7 +13343,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5e6e2ea15ba254a40830b99810de205b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.32
+      value: -0.36
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5e6e2ea15ba254a40830b99810de205b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -14089,6 +14396,7 @@ GameObject:
   - component: {fileID: 1548134222}
   - component: {fileID: 1548134221}
   - component: {fileID: 1548134220}
+  - component: {fileID: 1548134223}
   m_Layer: 0
   m_Name: Tree01
   m_TagString: Untagged
@@ -14120,7 +14428,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1548134218}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -14175,6 +14483,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1548134218}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1548134223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1548134218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639aa61463e828c42a3f955987c52ac4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thePlayer: {fileID: 1317597452}
+  charModel: {fileID: 524873324}
+  crashThud: {fileID: 1747946764}
+  mainCam: {fileID: 963194225}
+  levelControl: {fileID: 1317891444}
 --- !u!1 &1550321024
 GameObject:
   m_ObjectHideFlags: 0
@@ -14427,6 +14752,7 @@ GameObject:
   - component: {fileID: 1600870655}
   - component: {fileID: 1600870654}
   - component: {fileID: 1600870653}
+  - component: {fileID: 1600870656}
   m_Layer: 0
   m_Name: Tree01 (1)
   m_TagString: Untagged
@@ -14458,7 +14784,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1600870651}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -14513,6 +14839,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1600870651}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1600870656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600870651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639aa61463e828c42a3f955987c52ac4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thePlayer: {fileID: 1317597452}
+  charModel: {fileID: 524873324}
+  crashThud: {fileID: 1747946764}
+  mainCam: {fileID: 963194225}
+  levelControl: {fileID: 1317891444}
 --- !u!1001 &1603546003
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14660,6 +15003,7 @@ GameObject:
   - component: {fileID: 1660357201}
   - component: {fileID: 1660357200}
   - component: {fileID: 1660357199}
+  - component: {fileID: 1660357202}
   m_Layer: 0
   m_Name: Rock01 (2)
   m_TagString: Untagged
@@ -14691,7 +15035,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1660357197}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -14746,6 +15090,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1660357197}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1660357202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660357197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639aa61463e828c42a3f955987c52ac4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thePlayer: {fileID: 1317597452}
+  charModel: {fileID: 524873324}
+  crashThud: {fileID: 1747946764}
+  mainCam: {fileID: 963194225}
+  levelControl: {fileID: 1317891444}
 --- !u!1001 &1673630034
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14775,7 +15136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b58e7fdfb89fbc549b36a69243aee4c0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.5
+      value: 0.013
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b58e7fdfb89fbc549b36a69243aee4c0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -14783,7 +15144,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b58e7fdfb89fbc549b36a69243aee4c0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.83
+      value: -0.095
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b58e7fdfb89fbc549b36a69243aee4c0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -14827,6 +15188,7 @@ GameObject:
   - component: {fileID: 1675743442}
   - component: {fileID: 1675743441}
   - component: {fileID: 1675743440}
+  - component: {fileID: 1675743443}
   m_Layer: 0
   m_Name: Rock01
   m_TagString: Untagged
@@ -14858,7 +15220,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1675743438}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -14913,6 +15275,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1675743438}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1675743443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675743438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639aa61463e828c42a3f955987c52ac4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thePlayer: {fileID: 1317597452}
+  charModel: {fileID: 524873324}
+  crashThud: {fileID: 1747946764}
+  mainCam: {fileID: 963194225}
+  levelControl: {fileID: 1317891444}
 --- !u!4 &1704407953 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: c83f502368bab8140af79867b14e99c9, type: 3}
@@ -17442,6 +17821,7 @@ GameObject:
   - component: {fileID: 2145098059}
   - component: {fileID: 2145098062}
   - component: {fileID: 2145098063}
+  - component: {fileID: 2145098064}
   m_Layer: 0
   m_Name: BigRock01
   m_TagString: Untagged
@@ -17566,3 +17946,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2145098064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2145098057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639aa61463e828c42a3f955987c52ac4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thePlayer: {fileID: 1317597452}
+  charModel: {fileID: 524873324}
+  crashThud: {fileID: 1747946764}
+  mainCam: {fileID: 963194225}
+  levelControl: {fileID: 1317891444}
